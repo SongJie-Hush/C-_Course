@@ -1,0 +1,6 @@
+C:\Users\40576\Documents\C#程序设计\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\Users\40576\Documents\C#程序设计\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+C:\Users\40576\Documents\C#程序设计\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\Users\40576\Documents\C#程序设计\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\Users\40576\Documents\C#程序设计\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\Users\40576\Documents\C#程序设计\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

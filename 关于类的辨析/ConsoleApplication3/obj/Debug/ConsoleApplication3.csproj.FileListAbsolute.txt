@@ -1,0 +1,12 @@
+C:\Users\40576\Desktop\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\40576\Desktop\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\40576\Desktop\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\40576\Desktop\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache
+C:\Users\40576\Desktop\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\40576\Desktop\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\40576\Documents\Programing\C#_Programing\关于类的辨析\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\40576\Documents\Programing\C#_Programing\关于类的辨析\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\40576\Documents\Programing\C#_Programing\关于类的辨析\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
+C:\Users\40576\Documents\Programing\C#_Programing\关于类的辨析\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\40576\Documents\Programing\C#_Programing\关于类的辨析\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\40576\Documents\Programing\C#_Programing\关于类的辨析\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojResolveAssemblyReference.cache

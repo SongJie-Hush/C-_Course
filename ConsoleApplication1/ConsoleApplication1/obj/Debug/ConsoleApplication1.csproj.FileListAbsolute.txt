@@ -1,0 +1,2 @@
+C:\Users\40576\Documents\C#程序设计\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\40576\Documents\C#程序设计\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Users\40576\Desktop\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\bin\Debug\MyGame.exe.config
+C:\Users\40576\Desktop\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\obj\Debug\MyGame.csprojResolveAssemblyReference.cache
+C:\Users\40576\Desktop\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\bin\Debug\MyGame.exe
+C:\Users\40576\Desktop\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\bin\Debug\MyGame.pdb
+C:\Users\40576\Desktop\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\obj\Debug\MyGame.exe
+C:\Users\40576\Desktop\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\obj\Debug\MyGame.pdb
+C:\Users\40576\Documents\C#程序设计\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\bin\Debug\MyGame.exe.config
+C:\Users\40576\Documents\C#程序设计\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\obj\Debug\MyGame.exe
+C:\Users\40576\Documents\C#程序设计\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\obj\Debug\MyGame.pdb
+C:\Users\40576\Documents\C#程序设计\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\bin\Debug\MyGame.exe
+C:\Users\40576\Documents\C#程序设计\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\bin\Debug\MyGame.pdb
+C:\Users\40576\Documents\C#程序设计\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\obj\Debug\MyGame.csprojResolveAssemblyReference.cache
+C:\Users\40576\Documents\Programing\C#_Programing\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\bin\Debug\MyGame.exe.config
+C:\Users\40576\Documents\Programing\C#_Programing\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\obj\Debug\MyGame.exe
+C:\Users\40576\Documents\Programing\C#_Programing\GIS201813890061宋杰\自己设计的类\MyGame\MyGame\obj\Debug\MyGame.pdb
