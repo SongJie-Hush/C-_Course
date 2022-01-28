@@ -1,0 +1,155 @@
+namespace Calculator
+{
+    public partial class FrmCalcutor : Form
+    {
+        string sign;
+        double num1;//第一个数
+        double num2;//第二个数
+        double num3;//运算结果
+        bool flag = true;//判断是否为第一个数
+        public FrmCalcutor()
+        {
+            InitializeComponent();
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {//数字1
+            if (flag == true)
+            {//未输入运算符之前，flag设置为true，所以所键入的字符都是赋给第一个数字的
+                Button b = (Button)sender;
+                txtnum.Text += b.Text;       //连接button 键入的字符串
+                num1 = double.Parse(txtnum.Text);//将字符串转化为double类型赋给num
+            }
+            else
+            {//输入运算符后，flag设置为false，所以键入的字符都是赋给第二个字符的
+                Button b = (Button)sender;     
+                txtnum.Text += b.Text;
+                num2 = double.Parse(txtnum.Text);
+            }
+        }
+
+        private void btn0_Click(object sender, EventArgs e)
+        {//数字0
+            if (flag == true)
+            {
+                Button b = (Button)sender;
+                txtnum.Text += b.Text;
+                num1 = double.Parse(txtnum.Text);
+            }
+            else
+            {
+                Button b = (Button)sender;
+                txtnum.Text += b.Text;
+                num2 = double.Parse(txtnum.Text);
+            }
+        }
+
+        private void btnpiont_Click(object sender, EventArgs e)
+        {//小数点.
+            if (flag == true)
+            {
+                Button b = (Button)sender;
+                txtnum.Text += b.Text;
+                num1 = double.Parse(txtnum.Text);
+            }
+            else
+            {
+                Button b = (Button)sender;
+                txtnum.Text += b.Text;
+                num2 = double.Parse(txtnum.Text);
+            }
+        }
+
+        private void btnjia_Click(object sender, EventArgs e)
+        {//加号
+            sign = "+";
+            txtnum.Text = "";
+            flag = false;
+            label1.Text = sign;
+        }
+        private void btnjian_Click(object sender, EventArgs e)
+        {//减号
+            sign = "-";
+            txtnum.Text = "";
+            flag = false;
+            label1.Text = sign;
+        }
+
+        private void btncheng_Click(object sender, EventArgs e)
+        {//乘号
+            sign = "*";
+            txtnum.Text = "";
+            flag = false;
+            label1.Text = sign;
+        }
+
+        private void btnchu_Click(object sender, EventArgs e)
+        {//除号
+            sign = "/";
+            txtnum.Text = "";
+            flag = false;
+            label1.Text = sign;
+        }
+
+        private void btndeng_Click(object sender, EventArgs e)
+        {//等号
+            flag = true;//点击=后，该计算过程结束，flag变为true，准备下一次计算时使用
+            switch(sign)
+            {
+                case "+":
+                    num3 = num1 + num2;
+                    txtnum.Text = num3.ToString();
+                    break;
+                case "-":
+                    num3 = num1 - num2;
+                    txtnum.Text = num3.ToString();
+                    break;
+                case "*":
+                    num3 = num1 * num2;
+                    txtnum.Text = num3.ToString();
+                    break;
+                case "/":
+                    if (num2 != 0)
+                        num3 = num1 / num2;
+                    else
+                        txtnum.Text = "除数不能为0";
+                    break;
+            }
+        }
+
+        private void btnC_Click(object sender, EventArgs e)
+        {//全部归零
+            num1 = 0;
+            num2 = 0;
+            num3 = 0;
+            txtnum.Text = "";
+        }
+
+        private void btnCE_Click(object sender, EventArgs e)
+        {//
+            num2 = 0;
+            num3 = 0;
+            txtnum.Text = "";
+        }
+
+        private void btnclear_Click(object sender, EventArgs e)
+        {//清除上一位数字
+           string s= txtnum.Text.Substring(0,txtnum.Text.Length-1);
+           txtnum.Text = s;
+           if (flag == true)
+               num1 = double.Parse(s);
+            else
+               num2 = double.Parse(s);
+        }
+        private void FrmCalcutor_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            string msg="是否要关闭计算器";
+           DialogResult dr= MessageBox.Show(msg,"退出程序",MessageBoxButtons.OKCancel,MessageBoxIcon.Question);
+           if (dr == DialogResult.OK)
+               e.Cancel = false;
+           else
+               e.Cancel = true;
+
+        }
+    }
+}
